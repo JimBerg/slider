@@ -15,5 +15,5 @@ ul li { list-style: none; float: left; }
 .slider-mask { overflow: hidden; }
 .slider-mask.full { width: 480px; height: 320px; }
 .slider-mask.thumbs { width: 250px; height: 320px; }
-.slider-mask.thumbs li { margin: 9px 0; }
-#thumb-slider li[data-index='0']{ border: 1px solid red; }
+.slider-mask.thumbs li { margin: 10px 0; height: 80px; overflow: hidden; }
+#thumb-slider li[data-index='0']{ opacity: 0.2; }
