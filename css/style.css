@@ -1,0 +1,19 @@
+/**
+* Basic Styles for Slider
+* Author: Jay
+* Date: 13.07.2013
+* -------------------------------- */
+
+/* General Styles */
+body {}
+ul li { list-style: none; float: left; }
+
+/* Slider */
+.slider-wrapper { width: 800px; height: 360px; float: left; }
+.slider-left { width: 550px; float: left; }
+.slider-right { width: 250px; float: left; }
+.slider-mask { overflow: hidden; }
+.slider-mask.full { width: 480px; height: 320px; }
+.slider-mask.thumbs { width: 250px; height: 320px; }
+.slider-mask.thumbs li { margin: 9px 0; }
+#thumb-slider li[data-index='0']{ border: 1px solid red; }
